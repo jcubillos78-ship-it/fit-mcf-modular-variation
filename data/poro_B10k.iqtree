@@ -1,0 +1,560 @@
+IQ-TREE 3.1.4 built Sep 10 2026
+
+Input file name: alineamiento_poro.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (10000 replicates)
+Random seed number: 1
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 111 sequences with 659 amino-acid sites
+Number of constant sites: 127 (= 19.2716% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 127 (= 19.2716% of all sites)
+Number of parsimony informative sites: 489
+Number of distinct site patterns: 574
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0837
+Gamma shape alpha: 1.0384
+
+ Category  Relative_rate  Proportion
+  0         0              0.0837
+  1         0.1578         0.2291
+  2         0.5326         0.2291
+  3         1.0980         0.2291
+  4         2.5770         0.2291
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -21243.9789 (s.e. 682.1734)
+Unconstrained log-likelihood (without tree): -4091.2091
+Number of free parameters (#branches + #model parameters): 221
+Akaike information criterion (AIC) score: 42929.9578
+Corrected Akaike information criterion (AICc) score: 43154.4978
+Bayesian information criterion (BIC) score: 43922.4077
+
+Total tree length (sum of branch lengths): 6.6001
+Sum of internal branch lengths: 4.1382 (62.6987% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0015) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ps_Ps_chlororaphis__N-A-P-T__WP_097304090v1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Ps_Ps_chlororaphis__N-A-P-T__WP_097304090v1
+|
+|           +--Ps_Ps_protegens__N-A-P-T__WP_232642130v1
+|        +--| (76.7/72)
+|        |  |        +--Ps_Ps__N-A-P-T__WP_350404881v1
+|        |  |     +--| (28.7/54)
+|        |  |     |  +--Ps_Ps_sp_JDS08PS003__N-A-P-T__WP_404936831v1
+|        |  |  +**| (0/36)
+|        |  |  |  +--Ps_Ps_sp_910_21__N-A-P-T__WP_446439864v1
+|        |  +--| (87.3/95)
+|        |     +--Ps_Ps_sp_E1BtOHC1__N-A-P-T__WP_492611188v1
+|     +--| (61.7/51)
+|     |  |           +--Ps_Ps_sp_NFPP19__N-A-P-T__WP_093403197v1
+|     |  |        +**| (0/76)
+|     |  |        |  +**Ps_Ps_sp_GW456_L15__N-A-P-T__WP_207239179v1
+|     |  |     +--| (85.7/66)
+|     |  |     |  +--Ps_Ps_sp_HP_09__N-A-P-T__WP_463588298v1
+|     |  |  +--| (79.6/50)
+|     |  |  |  +**Ps_unclassified_Ps__N-A-P-T__WP_072450347v1
+|     |  +--| (95.2/72)
+|     |     +--Ps_Ps_sp_JV245A__N-A-P-T__WP_315868922v1
+|  +--| (57.4/69)
+|  |  |           +--Ps_Ps_sp_WS_5414__N-A-P-T__WP_170003023v1
+|  |  |        +--| (93/96)
+|  |  |        |  +**Ps_Ps_danubii__N-A-P-T__WP_394304424v1
+|  |  |     +--| (41.1/58)
+|  |  |     |  +--Ps_Ps_sp__N-A-P-T__WP_296408464v1
+|  |  |  +--| (97.5/100)
+|  |  |  |  |     +--Ps_Ps_sp_B21_059__N-A-P-T__WP_265074857v1
+|  |  |  |  |  +**| (0/39)
+|  |  |  |  |  |  +--Ps_Ps_idahonensis__N-A-P-T__WP_273905871v1
+|  |  |  |  +**| (0/68)
+|  |  |  |     +**Ps_Ps_sp_BLCC_B112__N-A-P-T__WP_272754012v1
+|  |  +--| (99.7/100)
+|  |     |  +**Ps_Ps_sp_50_B__N-A-P-T__WP_207815138v1
+|  |     +--| (92.2/99)
+|  |        +--Ps_Ps_sp_LPH60__N-A-P-T__WP_305949448v1
++--| (100/100)
+|  |  +--Ps_Ps_sp_PH1b__N-A-P-T__WP_025127307v1
+|  +--| (99.9/100)
+|     +--Ps_Ps_sp_Fl5BN2__N-A-P-T__WP_161754671v1
+|
+|                          +--Ph_Ph_khanii__N-A-P-T__WP_036848343v1
+|                       +--| (99.5/100)
+|                       |  +--Ph_Ph_sp_RM322S__N-A-P-T__WP_387631494v1
+|                    +--| (91.9/84)
+|                    |  |     +**Ph_Ph_thracensis__N-A-P-T__WP_228939948v1
+|                    |  |  +--| (100/100)
+|                    |  |  |  +--Ph_Ph_temperata__N-A-P-T__WP_471805836v1
+|                    |  +--| (100/100)
+|                    |     +--Ph_Ph_viridis__N-A-P-T__WP_350303958v1
+|                 +--| (36.5/48)
+|                 |  |  +--Ph_Ph_tasmaniensis__N-A-P-T__WP_449592507v1
+|                 |  +--| (100/100)
+|                 |     +**Ph_Ph_sp_RM323S__N-A-P-T__WP_387465383v1
+|              +--| (97/91)
+|              |  +--Ph_Ph_machadonis__N-A-P-T__WP_445493516v1
+|           +--| (91.7/79)
+|           |  +--Ph_Ph_stackebrandtii__N-A-P-T__WP_207626917v1
+|        +--| (87.4/73)
+|        |  |     +--Ph_Ph_noenieputensis__N-A-P-T__WP_244868842v1
+|        |  |  +--| (100/100)
+|        |  |  |  +--Ph_Ph_caribbeanensis__N-A-P-T__WP_246550572v1
+|        |  +--| (82.8/68)
+|        |     |        +--Ph_Ph_hindustanensis__N-A-P-T__WP_105396722v1
+|        |     |     +--| (90.6/89)
+|        |     |     |  +--Ph_Ph_hainanensis__N-A-P-T__WP_214068779v1
+|        |     |  +--| (80/80)
+|        |     |  |  +--Ph_Ph_akhurstii__N-A-P-T__WP_217470331v1
+|        |     +--| (100/100)
+|        |        +--Ph_Ph_aegyptia__N-A-P-T__WP_152544360v1
+|     +--| (91.6/73)
+|     |  |     +--Ph_Ph_sp_CRCIA_P01__N-A-P-T__WP_118985119v1
+|     |  |  +--| (100/100)
+|     |  |  |  +--Ph_Ph_antumapuensis__N-A-P-T__WP_225813769v1
+|     |  +--| (100/100)
+|     |     |  +--Ph_Ph_heterorhabditis__N-A-P-T__WP_149615999v1
+|     |     +--| (94.2/91)
+|     |        +--Ph_Ph_australis__N-A-P-T__WP_036771337v1
+|  +--| (91.8/60)
+|  |  |        +**Ph_Ph_laumondii__N-A-P-T__WP_058589554v1
+|  |  |     +--| (95.5/96)
+|  |  |     |  +--Ph_Ph_sp_RW14_46__N-A-P-T__WP_165577128v1
+|  |  |  +--| (96.3/70)
+|  |  |  |  |  +--Ph_Ph_africana__N-A-P-T__WP_323840136v1
+|  |  |  |  +--| (41.7/55)
+|  |  |  |     |                                                    +--Xe_Xe_bovienii__N-C-T__WP_038188846v1
+|  |  |  |     |                                                 +--| (97.9/96)
+|  |  |  |     |                                                 |  |     +--Xe_Xe_siamensis__N-C-T__WP_340622197v1
+|  |  |  |     |                                                 |  |  +--| (98.7/98)
+|  |  |  |     |                                                 |  |  |  |  +--Xe_Xe_indica__N-C-T__WP_187649571v1
+|  |  |  |     |                                                 |  |  |  +--| (96.2/95)
+|  |  |  |     |                                                 |  |  |     +--Xe_Xe_sp_SGI246__N-C-T__WP_367964232v1
+|  |  |  |     |                                                 |  +--| (6.1/49)
+|  |  |  |     |                                                 |     +--Xe_Xe_budapestensis__N-C-T__WP_099136459v1
+|  |  |  |     |                                              +--| (96.1/93)
+|  |  |  |     |                                              |  |     +--Xe_Xe_nematophila__N-C-T__WP_493910284v1
+|  |  |  |     |                                              |  |  +--| (55.2/64)
+|  |  |  |     |                                              |  |  |  +--Ph_Ph_khanii__N-C-T__WP_504311997v1
+|  |  |  |     |                                              |  +--| (95.9/85)
+|  |  |  |     |                                              |     +--Xe_Xe_cabanillasii__N-C-T__WP_255296168v1
+|  |  |  |     +----------------------------------------------| (100/100)
+|  |  |  |                                                    |  +--Xe_Xe_koppenhoeferi__N-C-T__WP_092551144v1
+|  |  |  |                                                    +--| (16.4/68)
+|  |  |  |                                                       |  +--Xe_Xe_sp_Sc_CR9__N-C-T__WP_237387987v1
+|  |  |  |                                                       +--| (96.8/96)
+|  |  |  |                                                          +--Xe_Xe_sp_XBWT__N-C-T__WP_493912020v1
+|  |  +--| (99.2/71)
+|  |     |        +--Ph_unclassified_Ph__N-A-P-T__WP_112878238v1
+|  |     |     +--| (93/99)
+|  |     |     |  |  +**Ph_Ph_kleinii__N-A-P-T__WP_262980440v1
+|  |     |     |  +--| (78.1/100)
+|  |     |     |     +**Ph_Ph_sp_RM71S__N-A-P-T__WP_387690447v1
+|  |     |  +--| (89.1/89)
+|  |     |  |  +--Ph_Ph_bodei__N-A-P-T__WP_112895620v1
+|  |     +--| (94.7/98)
+|  |        |  +**Ph_Ph_kayaii__N-A-P-T__WP_262978304v1
+|  |        +--| (98.1/100)
+|  |           +**Ph_Ph_sp_RM96S__N-A-P-T__WP_387492183v1
++--| (100/100)
+   |           +--Ph_Ph__N-A-P-T__WP_074524807v1
+   |        +--| (82.1/94)
+   |        |  +--Ph_Ph_luminescens__N-A-P-T__WP_132344735v1
+   |     +--| (100/100)
+   |     |  |  +--Ph_Ph_aballayi__N-A-P-T__WP_265379012v1
+   |     |  +--| (92.4/94)
+   |     |     +--Ph_Ph_sp_P32__N-A-P-T__WP_341498798v1
+   |  +--| (93.3/98)
+   |  |  +--Ph_Ph_antumapuensis__H-A-P-T__WP_225817174v1
+   +--| (99.7/74)
+      |                    +--Ph_Ph_akhurstii__H-A-P-T__WP_217469786v1
+      |                 +--| (100/98)
+      |                 |  |  +--Ph_Ph_hainanensis__H-A-P-T__WP_214068415v1
+      |                 |  +--| (86.6/84)
+      |                 |     +--Ph_Ph_aegyptia__A-P-T__WP_229000068v1
+      |              +--| (95.3/92)
+      |              |  |  +--Ph_Ph_aegyptia__H-A-P-T__WP_235200947v1
+      |              |  +--| (84.8/83)
+      |              |     +--Ph_Ph_caribbeanensis__H-A-P-T__WP_214054906v1
+      |           +--| (91.4/76)
+      |           |  |  +--Ph_Ph_noenieputensis__H-A-P-T__WP_214090277v1
+      |           |  +--| (44.1/65)
+      |           |     |                 +--Ph_Ph_laumondii__H-A-P-T__WP_228957097v1
+      |           |     |              +--| (100/100)
+      |           |     |              |  +--Ph_Ph_sp_RW14_46__H-A-P-T__WP_242685635v1
+      |           |     |           +--| (50.9/57)
+      |           |     |           |  +--Ph_Ph_sp_RM96S__H-A-P-T__WP_387492266v1
+      |           |     |        +--| (99.9/100)
+      |           |     |        |  +--Ph_Ph_kayaii__H-A-P-T__WP_262978139v1
+      |           |     |     +--| (86.2/67)
+      |           |     |     |  +--Ph_Ph__H-A-P-T__WP_228902541v1
+      |           |     |  +--| (72.5/58)
+      |           |     |  |  +--Ph_Ph_bodei__H-A-P-T__WP_112896421v1
+      |           |     +--| (96.4/97)
+      |           |        |     +**Ph_unclassified_Ph__H-A-P-T__WP_112879112v1
+      |           |        |  +**| (0/90)
+      |           |        |  |  +--Ph_Ph_kleinii__H-A-P-T__WP_262980719v1
+      |           |        +--| (100/100)
+      |           |           +--Ph_Ph_sp_RM71S__H-A-P-T__WP_387690564v1
+      |        +--| (65.7/53)
+      |        |  |        +--Xe_Xe_hominickii__H-A-P-T__WP_069315550v1
+      |        |  |     +--| (96.1/82)
+      |        |  |     |  |     +--Xe_Xe_vietnamensis__H-A-P-T__WP_086107692v1
+      |        |  |     |  |  +--| (99.7/100)
+      |        |  |     |  |  |  +--Xe_Xe_miraniensis__N-A-P-T__WP_099114225v1
+      |        |  |     |  +--| (99.5/100)
+      |        |  |     |     +--Xe_Xe_japonica__H-A-P-T__WP_092517888v1
+      |        |  |  +--| (34.7/46)
+      |        |  |  |  |  +--Xe_Xe_doucetiae__A-P-T__WP_084720948v1
+      |        |  |  |  +--| (96/94)
+      |        |  |  |     |              +**Xe_Xe__A-P-T__WP_083446752v1
+      |        |  |  |     |           +--| (99.8/100)
+      |        |  |  |     |           |  +**Xe_Xe_bakwenae__A-P-T__WP_285811469v1
+      |        |  |  |     |        +--| (86.7/69)
+      |        |  |  |     |        |  |     +--Xe_Xe_griffiniae__A-P-T__WP_189758622v1
+      |        |  |  |     |        |  |  +--| (98.5/93)
+      |        |  |  |     |        |  |  |  |  +--Xe_Xe_thailandensis__A-P-T__WP_340613510v1
+      |        |  |  |     |        |  |  |  +--| (99.9/100)
+      |        |  |  |     |        |  |  |     +--Xe_Xe_sp_TH1__A-P-T__WP_338883113v1
+      |        |  |  |     |        |  +--| (99.7/100)
+      |        |  |  |     |        |     +--Xe_Xe_sp_BG5__A-P-T__WP_193851097v1
+      |        |  |  |     |     +--| (87.8/63)
+      |        |  |  |     |     |  +--Xe_Xe_sp_SGI240__A-P-T__WP_348986824v1
+      |        |  |  |     |  +--| (78.6/49)
+      |        |  |  |     |  |  +--Xe_Xe_sp_SGI_60__A-P-T__WP_481089778v1
+      |        |  |  |     +--| (100/100)
+      |        |  |  |        |  +--Xe_Xe_thuongxuanensis__A-P-T__WP_083600894v1
+      |        |  |  |        +--| (96.6/98)
+      |        |  |  |           |  +--Xe_Xe_ehlersii__A-P-T__WP_099133907v1
+      |        |  |  |           +--| (100/100)
+      |        |  |  |              +**Xe_Xe_sp_TS4__A-P-T__WP_187651355v1
+      |        |  +--| (100/100)
+      |        |     |  +--Xe_Xe_lircayensis__H-A-P-T__WP_198690438v1
+      |        |     +--| (98.1/77)
+      |        |        |                 +--Xe_Xe_sp_Sc_CR9__A-P-T__WP_237387597v1
+      |        |        |              +--| (100/100)
+      |        |        |              |  +--Xe_Xe_sp_XBWT__A-P-T__WP_493912105v1
+      |        |        |           +--| (100/100)
+      |        |        |           |  +--Xe_Xe_koppenhoeferi__A-P-T__WP_323853779v1
+      |        |        |        +--| (15.9/49)
+      |        |        |        |  +--Xe_Xe_nematophila__H-A-P-T__WP_493907850v1
+      |        |        |     +--| (74.4/76)
+      |        |        |     |  +--Xe_Xe_koppenhoeferi__H-A-P-T__WP_092547958v1
+      |        |        |  +--| (94.4/90)
+      |        |        |  |  |  +--Xe_Xe_mauleonii__H-A-P-T__WP_092509082v1
+      |        |        |  |  +--| (99.8/100)
+      |        |        |  |     +--Xe_Xe_szentirmaii__H-A-P-T__WP_099138938v1
+      |        |        +--| (100/100)
+      |        |           +--Xe_Xe_littoralis__H-A-P-T__WP_319926847v1
+      |     +--| (99.9/77)
+      |     |  |  +--Ph_Ph_namnaonensis__H-A-P-T__WP_065391736v1
+      |     |  +--| (100/100)
+      |     |     +--Ph_Ph_hindustanensis__H-A-P-T__WP_105396760v1
+      |  +--| (87.9/67)
+      |  |  |     +--Ph_Ph_luminescens__H-A-P-T__WP_265514305v1
+      |  |  |  +--| (100/100)
+      |  |  |  |  +--Ph_Ph_sp_P32__H-A-P-T__WP_341499723v1
+      |  |  +--| (98.1/98)
+      |  |     +--Ph_Ph_aballayi__H-A-P-T__WP_265379516v1
+      +--| (94.9/75)
+         +------Ph_Ph_africana__A-P-T__WP_323837496v1
+
+Tree in newick format:
+
+(Ps_Ps_chlororaphis__N-A-P-T__WP_097304090v1:0.0647903151,((((Ps_Ps_protegens__N-A-P-T__WP_232642130v1:0.0093481849,(((Ps_Ps__N-A-P-T__WP_350404881v1:0.0031026861,Ps_Ps_sp_JDS08PS003__N-A-P-T__WP_404936831v1:0.0093587432)28.7/54:0.0015564150,Ps_Ps_sp_910_21__N-A-P-T__WP_446439864v1:0.0015460148)0/36:0.0000024485,Ps_Ps_sp_E1BtOHC1__N-A-P-T__WP_492611188v1:0.0015514241)87.3/95:0.0031000009)76.7/72:0.0027235996,((((Ps_Ps_sp_NFPP19__N-A-P-T__WP_093403197v1:0.0015362303,Ps_Ps_sp_GW456_L15__N-A-P-T__WP_207239179v1:0.0000010018)0/76:0.0000025137,Ps_Ps_sp_HP_09__N-A-P-T__WP_463588298v1:0.0139407543)85.7/66:0.0061729613,Ps_unclassified_Ps__N-A-P-T__WP_072450347v1:0.0000024987)79.6/50:0.0030791026,Ps_Ps_sp_JV245A__N-A-P-T__WP_315868922v1:0.0015484089)95.2/72:0.0086294467)61.7/51:0.0066620360,((((Ps_Ps_sp_WS_5414__N-A-P-T__WP_170003023v1:0.0016419156,Ps_Ps_danubii__N-A-P-T__WP_394304424v1:0.0000010018)93/96:0.0046229820,Ps_Ps_sp__N-A-P-T__WP_296408464v1:0.0046486167)41.1/58:0.0015322566,((Ps_Ps_sp_B21_059__N-A-P-T__WP_265074857v1:0.0015299170,Ps_Ps_idahonensis__N-A-P-T__WP_273905871v1:0.0030625732)0/39:0.0000024987,Ps_Ps_sp_BLCC_B112__N-A-P-T__WP_272754012v1:0.0000022793)0/68:0.0000024480)97.5/100:0.0098191351,(Ps_Ps_sp_50_B__N-A-P-T__WP_207815138v1:0.0000028321,Ps_Ps_sp_LPH60__N-A-P-T__WP_305949448v1:0.0031030585)92.2/99:0.0072620285)99.7/100:0.0271159027)57.4/69:0.0173780669,(Ps_Ps_sp_PH1b__N-A-P-T__WP_025127307v1:0.0165887848,Ps_Ps_sp_Fl5BN2__N-A-P-T__WP_161754671v1:0.0101757056)99.9/100:0.0367718855)100/100:0.1078887156,(((((((((Ph_Ph_khanii__N-A-P-T__WP_036848343v1:0.0051403578,Ph_Ph_sp_RM322S__N-A-P-T__WP_387631494v1:0.0182079957)99.5/100:0.0275551527,((Ph_Ph_thracensis__N-A-P-T__WP_228939948v1:0.0000020991,Ph_Ph_temperata__N-A-P-T__WP_471805836v1:0.0076447437)100/100:0.0816959708,Ph_Ph_viridis__N-A-P-T__WP_350303958v1:0.0391233246)100/100:0.0582544537)91.9/84:0.0147763160,(Ph_Ph_tasmaniensis__N-A-P-T__WP_449592507v1:0.0030906610,Ph_Ph_sp_RM323S__N-A-P-T__WP_387465383v1:0.0000010018)100/100:0.0488001058)36.5/48:0.0085597727,Ph_Ph_machadonis__N-A-P-T__WP_445493516v1:0.0448193671)97/91:0.0186057399,Ph_Ph_stackebrandtii__N-A-P-T__WP_207626917v1:0.0588931329)91.7/79:0.0112956251,((Ph_Ph_noenieputensis__N-A-P-T__WP_244868842v1:0.0145825422,Ph_Ph_caribbeanensis__N-A-P-T__WP_246550572v1:0.0331703031)100/100:0.0515820573,(((Ph_Ph_hindustanensis__N-A-P-T__WP_105396722v1:0.0072377614,Ph_Ph_hainanensis__N-A-P-T__WP_214068779v1:0.0129771778)90.6/89:0.0066139566,Ph_Ph_akhurstii__N-A-P-T__WP_217470331v1:0.0057397735)80/80:0.0062103965,Ph_Ph_aegyptia__N-A-P-T__WP_152544360v1:0.0098014889)100/100:0.0472952403)82.8/68:0.0103758476)87.4/73:0.0082570359,((Ph_Ph_sp_CRCIA_P01__N-A-P-T__WP_118985119v1:0.0041649411,Ph_Ph_antumapuensis__N-A-P-T__WP_225813769v1:0.0036062687)100/100:0.0550899135,(Ph_Ph_heterorhabditis__N-A-P-T__WP_149615999v1:0.0614961669,Ph_Ph_australis__N-A-P-T__WP_036771337v1:0.0418983147)94.2/91:0.0197976148)100/100:0.1149891306)91.6/73:0.0153513572,(((Ph_Ph_laumondii__N-A-P-T__WP_058589554v1:0.0000022141,Ph_Ph_sp_RW14_46__N-A-P-T__WP_165577128v1:0.0030334875)95.5/96:0.0088313891,(Ph_Ph_africana__N-A-P-T__WP_323840136v1:0.0089724228,(((Xe_Xe_bovienii__N-C-T__WP_038188846v1:0.0298822861,((Xe_Xe_siamensis__N-C-T__WP_340622197v1:0.0312041392,(Xe_Xe_indica__N-C-T__WP_187649571v1:0.0332858123,Xe_Xe_sp_SGI246__N-C-T__WP_367964232v1:0.0183373963)96.2/95:0.0250368205)98.7/98:0.0195552179,Xe_Xe_budapestensis__N-C-T__WP_099136459v1:0.0570532991)6.1/49:0.0059132885)97.9/96:0.0239083661,((Xe_Xe_nematophila__N-C-T__WP_493910284v1:0.0642260291,Ph_Ph_khanii__N-C-T__WP_504311997v1:0.1238909321)55.2/64:0.0191226922,Xe_Xe_cabanillasii__N-C-T__WP_255296168v1:0.0654917685)95.9/85:0.0202553020)96.1/93:0.0625758381,(Xe_Xe_koppenhoeferi__N-C-T__WP_092551144v1:0.0232072390,(Xe_Xe_sp_Sc_CR9__N-C-T__WP_237387987v1:0.0131948432,Xe_Xe_sp_XBWT__N-C-T__WP_493912020v1:0.0063569046)96.8/96:0.0148630762)16.4/68:0.0147150484)100/100:1.5461177380)41.7/55:0.0118346219)96.3/70:0.0135233268,(((Ph_unclassified_Ph__N-A-P-T__WP_112878238v1:0.0015223649,(Ph_Ph_kleinii__N-A-P-T__WP_262980440v1:0.0000010018,Ph_Ph_sp_RM71S__N-A-P-T__WP_387690447v1:0.0000010018)78.1/100:0.0015202909)93/99:0.0057417597,Ph_Ph_bodei__N-A-P-T__WP_112895620v1:0.0127379822)89.1/89:0.0044587914,(Ph_Ph_kayaii__N-A-P-T__WP_262978304v1:0.0000010018,Ph_Ph_sp_RM96S__N-A-P-T__WP_387492183v1:0.0000010018)98.1/100:0.0097739758)94.7/98:0.0084148415)99.2/71:0.0209795956)91.8/60:0.0142073942,((((Ph_Ph__N-A-P-T__WP_074524807v1:0.0172294170,Ph_Ph_luminescens__N-A-P-T__WP_132344735v1:0.0220828575)82.1/94:0.0054331656,(Ph_Ph_aballayi__N-A-P-T__WP_265379012v1:0.0169019019,Ph_Ph_sp_P32__N-A-P-T__WP_341498798v1:0.0237248050)92.4/94:0.0119952819)100/100:0.0409366833,Ph_Ph_antumapuensis__H-A-P-T__WP_225817174v1:0.0452947864)93.3/98:0.0100857055,(((((((Ph_Ph_akhurstii__H-A-P-T__WP_217469786v1:0.0045461541,(Ph_Ph_hainanensis__H-A-P-T__WP_214068415v1:0.0045103015,Ph_Ph_aegyptia__A-P-T__WP_229000068v1:0.0060237727)86.6/84:0.0029649714)100/98:0.0327726550,(Ph_Ph_aegyptia__H-A-P-T__WP_235200947v1:0.0080189312,Ph_Ph_caribbeanensis__H-A-P-T__WP_214054906v1:0.0265505622)84.8/83:0.0180180085)95.3/92:0.0208639133,(Ph_Ph_noenieputensis__H-A-P-T__WP_214090277v1:0.0382961016,((((((Ph_Ph_laumondii__H-A-P-T__WP_228957097v1:0.0091219879,Ph_Ph_sp_RW14_46__H-A-P-T__WP_242685635v1:0.0061180465)100/100:0.0275297047,Ph_Ph_sp_RM96S__H-A-P-T__WP_387492266v1:0.0033908335)50.9/57:0.0067063808,Ph_Ph_kayaii__H-A-P-T__WP_262978139v1:0.0035623505)99.9/100:0.0300557959,Ph_Ph__H-A-P-T__WP_228902541v1:0.0151592783)86.2/67:0.0137913513,Ph_Ph_bodei__H-A-P-T__WP_112896421v1:0.0169621647)72.5/58:0.0070005042,((Ph_unclassified_Ph__H-A-P-T__WP_112879112v1:0.0000024568,Ph_Ph_kleinii__H-A-P-T__WP_262980719v1:0.0030215722)0/90:0.0000024651,Ph_Ph_sp_RM71S__H-A-P-T__WP_387690564v1:0.0075722900)100/100:0.0352432138)96.4/97:0.0153269313)44.1/65:0.0102885268)91.4/76:0.0139513643,(((Xe_Xe_hominickii__H-A-P-T__WP_069315550v1:0.0785548632,((Xe_Xe_vietnamensis__H-A-P-T__WP_086107692v1:0.0329143954,Xe_Xe_miraniensis__N-A-P-T__WP_099114225v1:0.0491861750)99.7/100:0.0631768352,Xe_Xe_japonica__H-A-P-T__WP_092517888v1:0.0982206695)99.5/100:0.0491436501)96.1/82:0.0214478652,(Xe_Xe_doucetiae__A-P-T__WP_084720948v1:0.0618439569,(((((Xe_Xe__A-P-T__WP_083446752v1:0.0015131972,Xe_Xe_bakwenae__A-P-T__WP_285811469v1:0.0000021078)99.8/100:0.0230123807,((Xe_Xe_griffiniae__A-P-T__WP_189758622v1:0.0117750823,(Xe_Xe_thailandensis__A-P-T__WP_340613510v1:0.0092648872,Xe_Xe_sp_TH1__A-P-T__WP_338883113v1:0.0044209135)99.9/100:0.0291495336)98.5/93:0.0171245386,Xe_Xe_sp_BG5__A-P-T__WP_193851097v1:0.0165040512)99.7/100:0.0250573603)86.7/69:0.0107998699,Xe_Xe_sp_SGI240__A-P-T__WP_348986824v1:0.0090277741)87.8/63:0.0104594124,Xe_Xe_sp_SGI_60__A-P-T__WP_481089778v1:0.0339785297)78.6/49:0.0072086481,(Xe_Xe_thuongxuanensis__A-P-T__WP_083600894v1:0.0234569984,(Xe_Xe_ehlersii__A-P-T__WP_099133907v1:0.0015280687,Xe_Xe_sp_TS4__A-P-T__WP_187651355v1:0.0014778955)100/100:0.0284451474)96.6/98:0.0148724991)100/100:0.0549127479)96/94:0.0192833052)34.7/46:0.0039149696,(Xe_Xe_lircayensis__H-A-P-T__WP_198690438v1:0.0574198775,((((((Xe_Xe_sp_Sc_CR9__A-P-T__WP_237387597v1:0.0145416570,Xe_Xe_sp_XBWT__A-P-T__WP_493912105v1:0.0114162884)100/100:0.0992811783,Xe_Xe_koppenhoeferi__A-P-T__WP_323853779v1:0.0230795912)100/100:0.0452689067,Xe_Xe_nematophila__H-A-P-T__WP_493907850v1:0.0387852899)15.9/49:0.0108309467,Xe_Xe_koppenhoeferi__H-A-P-T__WP_092547958v1:0.0935589571)74.4/76:0.0148464902,(Xe_Xe_mauleonii__H-A-P-T__WP_092509082v1:0.0549426416,Xe_Xe_szentirmaii__H-A-P-T__WP_099138938v1:0.0426610207)99.8/100:0.0396599394)94.4/90:0.0198186466,Xe_Xe_littoralis__H-A-P-T__WP_319926847v1:0.0452440818)100/100:0.0579815214)98.1/77:0.0201517012)100/100:0.0762760774)65.7/53:0.0041552371,(Ph_Ph_namnaonensis__H-A-P-T__WP_065391736v1:0.0039689137,Ph_Ph_hindustanensis__H-A-P-T__WP_105396760v1:0.0021140628)100/100:0.1053587073)99.9/77:0.0254659196,((Ph_Ph_luminescens__H-A-P-T__WP_265514305v1:0.0167579340,Ph_Ph_sp_P32__H-A-P-T__WP_341499723v1:0.0178987055)100/100:0.0569743688,Ph_Ph_aballayi__H-A-P-T__WP_265379516v1:0.0341419112)98.1/98:0.0270678040)87.9/67:0.0133864793,Ph_Ph_africana__A-P-T__WP_323837496v1:0.2478313482)94.9/75:0.0182680561)99.7/74:0.0346974826)100/100:0.1212239698);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 10000 bootstrap trees
+Log-likelihood of consensus tree: -21243.989551
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Ps_Ps_chlororaphis__N-A-P-T__WP_097304090v1
+|
+|           +--Ps_Ps_protegens__N-A-P-T__WP_232642130v1
+|        +--| (72)
+|        |  |        +--Ps_Ps__N-A-P-T__WP_350404881v1
+|        |  |     +--| (54)
+|        |  |     |  +--Ps_Ps_sp_JDS08PS003__N-A-P-T__WP_404936831v1
+|        |  |  +--| (36)
+|        |  |  |  +--Ps_Ps_sp_910_21__N-A-P-T__WP_446439864v1
+|        |  +--| (95)
+|        |     +--Ps_Ps_sp_E1BtOHC1__N-A-P-T__WP_492611188v1
+|     +--| (51)
+|     |  |           +--Ps_Ps_sp_NFPP19__N-A-P-T__WP_093403197v1
+|     |  |        +--| (76)
+|     |  |        |  +--Ps_Ps_sp_GW456_L15__N-A-P-T__WP_207239179v1
+|     |  |     +--| (66)
+|     |  |     |  +--Ps_Ps_sp_HP_09__N-A-P-T__WP_463588298v1
+|     |  |  +--| (50)
+|     |  |  |  +--Ps_unclassified_Ps__N-A-P-T__WP_072450347v1
+|     |  +--| (72)
+|     |     +--Ps_Ps_sp_JV245A__N-A-P-T__WP_315868922v1
+|  +--| (69)
+|  |  |           +--Ps_Ps_sp_WS_5414__N-A-P-T__WP_170003023v1
+|  |  |        +--| (96)
+|  |  |        |  +--Ps_Ps_danubii__N-A-P-T__WP_394304424v1
+|  |  |     +--| (58)
+|  |  |     |  +--Ps_Ps_sp__N-A-P-T__WP_296408464v1
+|  |  |  +--| (100)
+|  |  |  |  |     +--Ps_Ps_sp_B21_059__N-A-P-T__WP_265074857v1
+|  |  |  |  |  +--| (39)
+|  |  |  |  |  |  +--Ps_Ps_idahonensis__N-A-P-T__WP_273905871v1
+|  |  |  |  +--| (68)
+|  |  |  |     +--Ps_Ps_sp_BLCC_B112__N-A-P-T__WP_272754012v1
+|  |  +--| (100)
+|  |     |  +--Ps_Ps_sp_50_B__N-A-P-T__WP_207815138v1
+|  |     +--| (99)
+|  |        +--Ps_Ps_sp_LPH60__N-A-P-T__WP_305949448v1
++--| (100)
+|  |  +--Ps_Ps_sp_PH1b__N-A-P-T__WP_025127307v1
+|  +--| (100)
+|     +--Ps_Ps_sp_Fl5BN2__N-A-P-T__WP_161754671v1
+|
+|                          +--Ph_Ph_khanii__N-A-P-T__WP_036848343v1
+|                       +--| (100)
+|                       |  +--Ph_Ph_sp_RM322S__N-A-P-T__WP_387631494v1
+|                    +--| (84)
+|                    |  |     +--Ph_Ph_thracensis__N-A-P-T__WP_228939948v1
+|                    |  |  +--| (100)
+|                    |  |  |  +--Ph_Ph_temperata__N-A-P-T__WP_471805836v1
+|                    |  +--| (100)
+|                    |     +--Ph_Ph_viridis__N-A-P-T__WP_350303958v1
+|                 +--| (48)
+|                 |  |  +--Ph_Ph_tasmaniensis__N-A-P-T__WP_449592507v1
+|                 |  +--| (100)
+|                 |     +--Ph_Ph_sp_RM323S__N-A-P-T__WP_387465383v1
+|              +--| (91)
+|              |  +--Ph_Ph_machadonis__N-A-P-T__WP_445493516v1
+|           +--| (79)
+|           |  +--Ph_Ph_stackebrandtii__N-A-P-T__WP_207626917v1
+|        +--| (73)
+|        |  |     +--Ph_Ph_noenieputensis__N-A-P-T__WP_244868842v1
+|        |  |  +--| (100)
+|        |  |  |  +--Ph_Ph_caribbeanensis__N-A-P-T__WP_246550572v1
+|        |  +--| (68)
+|        |     |        +--Ph_Ph_hindustanensis__N-A-P-T__WP_105396722v1
+|        |     |     +--| (89)
+|        |     |     |  +--Ph_Ph_hainanensis__N-A-P-T__WP_214068779v1
+|        |     |  +--| (80)
+|        |     |  |  +--Ph_Ph_akhurstii__N-A-P-T__WP_217470331v1
+|        |     +--| (100)
+|        |        +--Ph_Ph_aegyptia__N-A-P-T__WP_152544360v1
+|     +--| (73)
+|     |  |     +--Ph_Ph_sp_CRCIA_P01__N-A-P-T__WP_118985119v1
+|     |  |  +--| (100)
+|     |  |  |  +--Ph_Ph_antumapuensis__N-A-P-T__WP_225813769v1
+|     |  +--| (100)
+|     |     |  +--Ph_Ph_heterorhabditis__N-A-P-T__WP_149615999v1
+|     |     +--| (91)
+|     |        +--Ph_Ph_australis__N-A-P-T__WP_036771337v1
+|  +--| (60)
+|  |  |        +--Ph_Ph_laumondii__N-A-P-T__WP_058589554v1
+|  |  |     +--| (96)
+|  |  |     |  +--Ph_Ph_sp_RW14_46__N-A-P-T__WP_165577128v1
+|  |  |  +--| (70)
+|  |  |  |  |  +--Ph_Ph_africana__N-A-P-T__WP_323840136v1
+|  |  |  |  +--| (55)
+|  |  |  |     |                                                    +--Xe_Xe_bovienii__N-C-T__WP_038188846v1
+|  |  |  |     |                                                 +--| (96)
+|  |  |  |     |                                                 |  |     +--Xe_Xe_siamensis__N-C-T__WP_340622197v1
+|  |  |  |     |                                                 |  |  +--| (98)
+|  |  |  |     |                                                 |  |  |  |  +--Xe_Xe_indica__N-C-T__WP_187649571v1
+|  |  |  |     |                                                 |  |  |  +--| (95)
+|  |  |  |     |                                                 |  |  |     +--Xe_Xe_sp_SGI246__N-C-T__WP_367964232v1
+|  |  |  |     |                                                 |  +--| (49)
+|  |  |  |     |                                                 |     +--Xe_Xe_budapestensis__N-C-T__WP_099136459v1
+|  |  |  |     |                                              +--| (93)
+|  |  |  |     |                                              |  |     +--Xe_Xe_nematophila__N-C-T__WP_493910284v1
+|  |  |  |     |                                              |  |  +--| (64)
+|  |  |  |     |                                              |  |  |  +--Ph_Ph_khanii__N-C-T__WP_504311997v1
+|  |  |  |     |                                              |  +--| (85)
+|  |  |  |     |                                              |     +--Xe_Xe_cabanillasii__N-C-T__WP_255296168v1
+|  |  |  |     +----------------------------------------------| (100)
+|  |  |  |                                                    |  +--Xe_Xe_koppenhoeferi__N-C-T__WP_092551144v1
+|  |  |  |                                                    +--| (68)
+|  |  |  |                                                       |  +--Xe_Xe_sp_Sc_CR9__N-C-T__WP_237387987v1
+|  |  |  |                                                       +--| (96)
+|  |  |  |                                                          +--Xe_Xe_sp_XBWT__N-C-T__WP_493912020v1
+|  |  +--| (71)
+|  |     |        +--Ph_unclassified_Ph__N-A-P-T__WP_112878238v1
+|  |     |     +--| (99)
+|  |     |     |  |  +--Ph_Ph_kleinii__N-A-P-T__WP_262980440v1
+|  |     |     |  +--| (100)
+|  |     |     |     +--Ph_Ph_sp_RM71S__N-A-P-T__WP_387690447v1
+|  |     |  +--| (89)
+|  |     |  |  +--Ph_Ph_bodei__N-A-P-T__WP_112895620v1
+|  |     +--| (98)
+|  |        |  +--Ph_Ph_kayaii__N-A-P-T__WP_262978304v1
+|  |        +--| (100)
+|  |           +--Ph_Ph_sp_RM96S__N-A-P-T__WP_387492183v1
++--| (100)
+   |           +--Ph_Ph__N-A-P-T__WP_074524807v1
+   |        +--| (94)
+   |        |  +--Ph_Ph_luminescens__N-A-P-T__WP_132344735v1
+   |     +--| (100)
+   |     |  |  +--Ph_Ph_aballayi__N-A-P-T__WP_265379012v1
+   |     |  +--| (94)
+   |     |     +--Ph_Ph_sp_P32__N-A-P-T__WP_341498798v1
+   |  +--| (98)
+   |  |  +--Ph_Ph_antumapuensis__H-A-P-T__WP_225817174v1
+   +--| (74)
+      |                    +--Ph_Ph_akhurstii__H-A-P-T__WP_217469786v1
+      |                 +--| (98)
+      |                 |  |  +--Ph_Ph_hainanensis__H-A-P-T__WP_214068415v1
+      |                 |  +--| (84)
+      |                 |     +--Ph_Ph_aegyptia__A-P-T__WP_229000068v1
+      |              +--| (92)
+      |              |  |  +--Ph_Ph_aegyptia__H-A-P-T__WP_235200947v1
+      |              |  +--| (83)
+      |              |     +--Ph_Ph_caribbeanensis__H-A-P-T__WP_214054906v1
+      |           +--| (76)
+      |           |  |  +--Ph_Ph_noenieputensis__H-A-P-T__WP_214090277v1
+      |           |  +--| (65)
+      |           |     |                 +--Ph_Ph_laumondii__H-A-P-T__WP_228957097v1
+      |           |     |              +--| (100)
+      |           |     |              |  +--Ph_Ph_sp_RW14_46__H-A-P-T__WP_242685635v1
+      |           |     |           +--| (57)
+      |           |     |           |  +--Ph_Ph_sp_RM96S__H-A-P-T__WP_387492266v1
+      |           |     |        +--| (100)
+      |           |     |        |  +--Ph_Ph_kayaii__H-A-P-T__WP_262978139v1
+      |           |     |     +--| (67)
+      |           |     |     |  +--Ph_Ph__H-A-P-T__WP_228902541v1
+      |           |     |  +--| (58)
+      |           |     |  |  +--Ph_Ph_bodei__H-A-P-T__WP_112896421v1
+      |           |     +--| (97)
+      |           |        |     +--Ph_unclassified_Ph__H-A-P-T__WP_112879112v1
+      |           |        |  +--| (90)
+      |           |        |  |  +--Ph_Ph_kleinii__H-A-P-T__WP_262980719v1
+      |           |        +--| (100)
+      |           |           +--Ph_Ph_sp_RM71S__H-A-P-T__WP_387690564v1
+      |        +--| (53)
+      |        |  |        +--Xe_Xe_hominickii__H-A-P-T__WP_069315550v1
+      |        |  |     +--| (82)
+      |        |  |     |  |     +--Xe_Xe_vietnamensis__H-A-P-T__WP_086107692v1
+      |        |  |     |  |  +--| (100)
+      |        |  |     |  |  |  +--Xe_Xe_miraniensis__N-A-P-T__WP_099114225v1
+      |        |  |     |  +--| (100)
+      |        |  |     |     +--Xe_Xe_japonica__H-A-P-T__WP_092517888v1
+      |        |  |  +--| (46)
+      |        |  |  |  |  +--Xe_Xe_doucetiae__A-P-T__WP_084720948v1
+      |        |  |  |  +--| (94)
+      |        |  |  |     |              +--Xe_Xe__A-P-T__WP_083446752v1
+      |        |  |  |     |           +--| (100)
+      |        |  |  |     |           |  +--Xe_Xe_bakwenae__A-P-T__WP_285811469v1
+      |        |  |  |     |        +--| (69)
+      |        |  |  |     |        |  |     +--Xe_Xe_griffiniae__A-P-T__WP_189758622v1
+      |        |  |  |     |        |  |  +--| (93)
+      |        |  |  |     |        |  |  |  |  +--Xe_Xe_thailandensis__A-P-T__WP_340613510v1
+      |        |  |  |     |        |  |  |  +--| (100)
+      |        |  |  |     |        |  |  |     +--Xe_Xe_sp_TH1__A-P-T__WP_338883113v1
+      |        |  |  |     |        |  +--| (100)
+      |        |  |  |     |        |     +--Xe_Xe_sp_BG5__A-P-T__WP_193851097v1
+      |        |  |  |     |     +--| (63)
+      |        |  |  |     |     |  +--Xe_Xe_sp_SGI240__A-P-T__WP_348986824v1
+      |        |  |  |     |  +--| (49)
+      |        |  |  |     |  |  +--Xe_Xe_sp_SGI_60__A-P-T__WP_481089778v1
+      |        |  |  |     +--| (100)
+      |        |  |  |        |  +--Xe_Xe_thuongxuanensis__A-P-T__WP_083600894v1
+      |        |  |  |        +--| (98)
+      |        |  |  |           |  +--Xe_Xe_ehlersii__A-P-T__WP_099133907v1
+      |        |  |  |           +--| (100)
+      |        |  |  |              +--Xe_Xe_sp_TS4__A-P-T__WP_187651355v1
+      |        |  +--| (100)
+      |        |     |  +--Xe_Xe_lircayensis__H-A-P-T__WP_198690438v1
+      |        |     +--| (77)
+      |        |        |                 +--Xe_Xe_sp_Sc_CR9__A-P-T__WP_237387597v1
+      |        |        |              +--| (100)
+      |        |        |              |  +--Xe_Xe_sp_XBWT__A-P-T__WP_493912105v1
+      |        |        |           +--| (100)
+      |        |        |           |  +--Xe_Xe_koppenhoeferi__A-P-T__WP_323853779v1
+      |        |        |        +--| (49)
+      |        |        |        |  +--Xe_Xe_nematophila__H-A-P-T__WP_493907850v1
+      |        |        |     +--| (76)
+      |        |        |     |  +--Xe_Xe_koppenhoeferi__H-A-P-T__WP_092547958v1
+      |        |        |  +--| (90)
+      |        |        |  |  |  +--Xe_Xe_mauleonii__H-A-P-T__WP_092509082v1
+      |        |        |  |  +--| (100)
+      |        |        |  |     +--Xe_Xe_szentirmaii__H-A-P-T__WP_099138938v1
+      |        |        +--| (100)
+      |        |           +--Xe_Xe_littoralis__H-A-P-T__WP_319926847v1
+      |     +--| (77)
+      |     |  |  +--Ph_Ph_namnaonensis__H-A-P-T__WP_065391736v1
+      |     |  +--| (100)
+      |     |     +--Ph_Ph_hindustanensis__H-A-P-T__WP_105396760v1
+      |  +--| (67)
+      |  |  |     +--Ph_Ph_luminescens__H-A-P-T__WP_265514305v1
+      |  |  |  +--| (100)
+      |  |  |  |  +--Ph_Ph_sp_P32__H-A-P-T__WP_341499723v1
+      |  |  +--| (98)
+      |  |     +--Ph_Ph_aballayi__H-A-P-T__WP_265379516v1
+      +--| (75)
+         +------Ph_Ph_africana__A-P-T__WP_323837496v1
+
+
+Consensus tree in newick format: 
+
+(Ps_Ps_chlororaphis__N-A-P-T__WP_097304090v1:0.0647952768,((((Ps_Ps_protegens__N-A-P-T__WP_232642130v1:0.0093484820,(((Ps_Ps__N-A-P-T__WP_350404881v1:0.0031027348,Ps_Ps_sp_JDS08PS003__N-A-P-T__WP_404936831v1:0.0093590229)54:0.0015561040,Ps_Ps_sp_910_21__N-A-P-T__WP_446439864v1:0.0015456861)36:0.0000024833,Ps_Ps_sp_E1BtOHC1__N-A-P-T__WP_492611188v1:0.0015511135)95:0.0031000284)72:0.0027238566,((((Ps_Ps_sp_NFPP19__N-A-P-T__WP_093403197v1:0.0015359464,Ps_Ps_sp_GW456_L15__N-A-P-T__WP_207239179v1:0.0000024833)76:0.0000024861,Ps_Ps_sp_HP_09__N-A-P-T__WP_463588298v1:0.0139419127)66:0.0061729482,Ps_unclassified_Ps__N-A-P-T__WP_072450347v1:0.0000021165)50:0.0030791319,Ps_Ps_sp_JV245A__N-A-P-T__WP_315868922v1:0.0015480936)72:0.0086297324)51:0.0066621471,((((Ps_Ps_sp_WS_5414__N-A-P-T__WP_170003023v1:0.0016426335,Ps_Ps_danubii__N-A-P-T__WP_394304424v1:0.0000024833)96:0.0046237848,Ps_Ps_sp__N-A-P-T__WP_296408464v1:0.0046494399)58:0.0015319527,((Ps_Ps_sp_B21_059__N-A-P-T__WP_265074857v1:0.0015296130,Ps_Ps_idahonensis__N-A-P-T__WP_273905871v1:0.0030625982)39:0.0000024833,Ps_Ps_sp_BLCC_B112__N-A-P-T__WP_272754012v1:0.0000024833)68:0.0000024833)100:0.0098183880,(Ps_Ps_sp_50_B__N-A-P-T__WP_207815138v1:0.0000024833,Ps_Ps_sp_LPH60__N-A-P-T__WP_305949448v1:0.0031030817)99:0.0072623092)100:0.0271170128)69:0.0173782085,(Ps_Ps_sp_PH1b__N-A-P-T__WP_025127307v1:0.0165899653,Ps_Ps_sp_Fl5BN2__N-A-P-T__WP_161754671v1:0.0101754300)100:0.0367735582)100:0.1078889748,(((((((((Ph_Ph_khanii__N-A-P-T__WP_036848343v1:0.0051402212,Ph_Ph_sp_RM322S__N-A-P-T__WP_387631494v1:0.0182085825)100:0.0275566855,((Ph_Ph_thracensis__N-A-P-T__WP_228939948v1:0.0000024833,Ph_Ph_temperata__N-A-P-T__WP_471805836v1:0.0076450730)100:0.0816983844,Ph_Ph_viridis__N-A-P-T__WP_350303958v1:0.0391251400)100:0.0582560558)84:0.0147768024,(Ph_Ph_tasmaniensis__N-A-P-T__WP_449592507v1:0.0030906901,Ph_Ph_sp_RM323S__N-A-P-T__WP_387465383v1:0.0000024833)100:0.0488019653)48:0.0085606833,Ph_Ph_machadonis__N-A-P-T__WP_445493516v1:0.0448204764)91:0.0186064316,Ph_Ph_stackebrandtii__N-A-P-T__WP_207626917v1:0.0588949948)79:0.0112953425,((Ph_Ph_noenieputensis__N-A-P-T__WP_244868842v1:0.0145833769,Ph_Ph_caribbeanensis__N-A-P-T__WP_246550572v1:0.0331718771)100:0.0515841475,(((Ph_Ph_hindustanensis__N-A-P-T__WP_105396722v1:0.0072379058,Ph_Ph_hainanensis__N-A-P-T__WP_214068779v1:0.0129771334)89:0.0066139260,Ph_Ph_akhurstii__N-A-P-T__WP_217470331v1:0.0057397317)80:0.0062114055,Ph_Ph_aegyptia__N-A-P-T__WP_152544360v1:0.0098008317)100:0.0472963697)68:0.0103763133)73:0.0082537997,((Ph_Ph_sp_CRCIA_P01__N-A-P-T__WP_118985119v1:0.0041651423,Ph_Ph_antumapuensis__N-A-P-T__WP_225813769v1:0.0036066719)100:0.0550911527,(Ph_Ph_heterorhabditis__N-A-P-T__WP_149615999v1:0.0614981363,Ph_Ph_australis__N-A-P-T__WP_036771337v1:0.0418995723)91:0.0197986957)100:0.1149931767)73:0.0153524391,(((Ph_Ph_laumondii__N-A-P-T__WP_058589554v1:0.0000024833,Ph_Ph_sp_RW14_46__N-A-P-T__WP_165577128v1:0.0030339924)96:0.0088454584,(Ph_Ph_africana__N-A-P-T__WP_323840136v1:0.0106913279,(((Xe_Xe_bovienii__N-C-T__WP_038188846v1:0.0298828516,((Xe_Xe_siamensis__N-C-T__WP_340622197v1:0.0312060099,(Xe_Xe_indica__N-C-T__WP_187649571v1:0.0332881294,Xe_Xe_sp_SGI246__N-C-T__WP_367964232v1:0.0183379394)95:0.0250378616)98:0.0195557555,Xe_Xe_budapestensis__N-C-T__WP_099136459v1:0.0570564411)49:0.0059134296)96:0.0239086674,((Xe_Xe_nematophila__N-C-T__WP_493910284v1:0.0642287446,Ph_Ph_khanii__N-C-T__WP_504311997v1:0.1238962086)64:0.0191215468,Xe_Xe_cabanillasii__N-C-T__WP_255296168v1:0.0654967379)85:0.0202580243)93:0.0624513993,(Xe_Xe_koppenhoeferi__N-C-T__WP_092551144v1:0.0232085526,(Xe_Xe_sp_Sc_CR9__N-C-T__WP_237387987v1:0.0131949210,Xe_Xe_sp_XBWT__N-C-T__WP_493912020v1:0.0063562898)96:0.0148644345)68:0.0148488820)100:1.5469983665)55:0.0100039220)70:0.0135215580,(((Ph_unclassified_Ph__N-A-P-T__WP_112878238v1:0.0015221245,(Ph_Ph_kleinii__N-A-P-T__WP_262980440v1:0.0000024833,Ph_Ph_sp_RM71S__N-A-P-T__WP_387690447v1:0.0000024833)100:0.0015200538)99:0.0057423415,Ph_Ph_bodei__N-A-P-T__WP_112895620v1:0.0127383846)89:0.0044598075,(Ph_Ph_kayaii__N-A-P-T__WP_262978304v1:0.0000024833,Ph_Ph_sp_RM96S__N-A-P-T__WP_387492183v1:0.0000024833)100:0.0097744132)98:0.0084025920)71:0.0209939871)60:0.0142065410,((((Ph_Ph__N-A-P-T__WP_074524807v1:0.0172295855,Ph_Ph_luminescens__N-A-P-T__WP_132344735v1:0.0220838430)94:0.0054338035,(Ph_Ph_aballayi__N-A-P-T__WP_265379012v1:0.0169021361,Ph_Ph_sp_P32__N-A-P-T__WP_341498798v1:0.0237258446)94:0.0119961206)100:0.0409377684,Ph_Ph_antumapuensis__H-A-P-T__WP_225817174v1:0.0452958806)98:0.0100859057,(((((((Ph_Ph_akhurstii__H-A-P-T__WP_217469786v1:0.0045469214,(Ph_Ph_hainanensis__H-A-P-T__WP_214068415v1:0.0045110582,Ph_Ph_aegyptia__A-P-T__WP_229000068v1:0.0060237734)84:0.0029643441)98:0.0327722078,(Ph_Ph_aegyptia__H-A-P-T__WP_235200947v1:0.0080180112,Ph_Ph_caribbeanensis__H-A-P-T__WP_214054906v1:0.0265514086)83:0.0180193281)92:0.0208648465,(Ph_Ph_noenieputensis__H-A-P-T__WP_214090277v1:0.0382959723,((((((Ph_Ph_laumondii__H-A-P-T__WP_228957097v1:0.0091219823,Ph_Ph_sp_RW14_46__H-A-P-T__WP_242685635v1:0.0061180484)100:0.0275303256,Ph_Ph_sp_RM96S__H-A-P-T__WP_387492266v1:0.0033912039)57:0.0067060887,Ph_Ph_kayaii__H-A-P-T__WP_262978139v1:0.0035626134)100:0.0300559292,Ph_Ph__H-A-P-T__WP_228902541v1:0.0151604584)67:0.0137912548,Ph_Ph_bodei__H-A-P-T__WP_112896421v1:0.0169630485)58:0.0070004646,((Ph_unclassified_Ph__H-A-P-T__WP_112879112v1:0.0000024833,Ph_Ph_kleinii__H-A-P-T__WP_262980719v1:0.0030209333)90:0.0000024861,Ph_Ph_sp_RM71S__H-A-P-T__WP_387690564v1:0.0075722935)100:0.0352440837)97:0.0153270445)65:0.0102891430)76:0.0139522456,(((Xe_Xe_hominickii__H-A-P-T__WP_069315550v1:0.0785533474,((Xe_Xe_vietnamensis__H-A-P-T__WP_086107692v1:0.0329159306,Xe_Xe_miraniensis__N-A-P-T__WP_099114225v1:0.0491847048)100:0.0631758982,Xe_Xe_japonica__H-A-P-T__WP_092517888v1:0.0982222892)100:0.0491429303)82:0.0214485420,(Xe_Xe_doucetiae__A-P-T__WP_084720948v1:0.0618431277,(((((Xe_Xe__A-P-T__WP_083446752v1:0.0015134345,Xe_Xe_bakwenae__A-P-T__WP_285811469v1:0.0000024833)100:0.0230124225,((Xe_Xe_griffiniae__A-P-T__WP_189758622v1:0.0117747170,(Xe_Xe_thailandensis__A-P-T__WP_340613510v1:0.0092653730,Xe_Xe_sp_TH1__A-P-T__WP_338883113v1:0.0044210492)100:0.0291497075)93:0.0171248781,Xe_Xe_sp_BG5__A-P-T__WP_193851097v1:0.0165045750)100:0.0250575016)69:0.0108004742,Xe_Xe_sp_SGI240__A-P-T__WP_348986824v1:0.0090281714)63:0.0104600735,Xe_Xe_sp_SGI_60__A-P-T__WP_481089778v1:0.0339782018)49:0.0072088275,(Xe_Xe_thuongxuanensis__A-P-T__WP_083600894v1:0.0234570961,(Xe_Xe_ehlersii__A-P-T__WP_099133907v1:0.0015281655,Xe_Xe_sp_TS4__A-P-T__WP_187651355v1:0.0014781136)100:0.0284452381)98:0.0148723190)100:0.0549128104)94:0.0192838069)46:0.0039154159,(Xe_Xe_lircayensis__H-A-P-T__WP_198690438v1:0.0574193271,((((((Xe_Xe_sp_Sc_CR9__A-P-T__WP_237387597v1:0.0145418838,Xe_Xe_sp_XBWT__A-P-T__WP_493912105v1:0.0114167273)100:0.0992816145,Xe_Xe_koppenhoeferi__A-P-T__WP_323853779v1:0.0230794843)100:0.0452694660,Xe_Xe_nematophila__H-A-P-T__WP_493907850v1:0.0387857423)49:0.0108318368,Xe_Xe_koppenhoeferi__H-A-P-T__WP_092547958v1:0.0935581313)76:0.0148465210,(Xe_Xe_mauleonii__H-A-P-T__WP_092509082v1:0.0549427314,Xe_Xe_szentirmaii__H-A-P-T__WP_099138938v1:0.0426611725)100:0.0396609576)90:0.0198183488,Xe_Xe_littoralis__H-A-P-T__WP_319926847v1:0.0452448841)100:0.0579820613)77:0.0201526466)100:0.0762762776)53:0.0041540861,(Ph_Ph_namnaonensis__H-A-P-T__WP_065391736v1:0.0039684663,Ph_Ph_hindustanensis__H-A-P-T__WP_105396760v1:0.0021151751)100:0.1053601183)77:0.0254672764,((Ph_Ph_luminescens__H-A-P-T__WP_265514305v1:0.0167581829,Ph_Ph_sp_P32__H-A-P-T__WP_341499723v1:0.0178996107)100:0.0569756484,Ph_Ph_aballayi__H-A-P-T__WP_265379516v1:0.0341427608)98:0.0270682518)67:0.0133877554,Ph_Ph_africana__A-P-T__WP_323837496v1:0.2478325021)75:0.0182677769)74:0.0346986051)100:0.1212272403);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t poro_B10k.treefile -m "JTT+I{0.0836974}+G4{1.03844}" --length 659
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s alineamiento_poro.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s alineamiento_poro.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Nov 17 19:08:31 2026
+Total CPU time used: 11403.5625 seconds (3h:10m:3s)
+Total wall-clock time used: 4209.642558 seconds (1h:10m:9s)
+
